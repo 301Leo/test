@@ -11,7 +11,7 @@
         }
 
         #screen_1 {                               /*  для первого экрана */
-            background-image: url(program.png);
+            background-image: url(images/program.png);
             background-size: cover;
             background-position: center;
         }
@@ -115,27 +115,27 @@
         }
 
         .image_cell:nth-of-type(1) {             /* ячейка для первой картинки */
-            background-image: url(1.jpg);
+            background-image: url(images/1.jpg);
         }
 
         .image_cell:nth-of-type(2) {              /* ячейка для второй картинки */
-            background-image: url(2.jpg);
+            background-image: url(images/2.jpg);
         }
 
         .image_cell:nth-of-type(3) {             /* ячейка для третьей картинки */
-            background-image: url(3.jpg);
+            background-image: url(images/3.jpg);
         }
 
         .image_cell:nth-of-type(4) {             /* ячейка для четвертой картинки */
-            background-image: url(4.jpg);   
+            background-image: url(images/4.jpg);   
         }
 
         .image_cell:nth-of-type(5) {             /* ячейка для пятой картинки */
-            background-image: url(5.jpg);
+            background-image: url(images/5.jpg);
         }
 
         .image_cell:nth-of-type(6) {             /* ячейка для шестой картинки */
-            background-image: url(6.jpg);
+            background-image: url(images/6.jpg);
         }
         
         footer {                                 /* родительская часть для нижней частьи подвал */
