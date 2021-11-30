@@ -1,0 +1,180 @@
+        html,
+        body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+
+        .screen {                          /*  для всех экранов */
+            height: 100%;
+            background-color: orange;
+        }
+
+        #screen_1 {                               /*  для первого экрана */
+            background-image: url(images/program.png);
+            background-size: cover;
+            background-position: center;
+        }
+
+        #screen_2 {                          /*  для второго экрана */
+            background-color: green;
+        }
+
+        #screen_3 {                        /*  для третьего  экрана */
+            background-color: yellow;
+        }
+        
+        .menu_bar {                            /* для строки меню */
+            display: flex;
+            background-color: rgb(100,81,207);
+            font-size: 3vw;
+            color: rgb( 237, 238, 240);
+        }
+
+        .menu_item:nth-of-type(1) {              /* для первого пункта меню */
+            flex-grow: 7;
+        }
+
+        .menu_item:nth-of-type(2) {              /* для  второго пункта меню */
+             flex-grow: 1.5;
+        }
+
+        .menu_item:nth-of-type(3) {              /* для третьего пункта меню */
+            flex-grow: 1.5;
+        }
+
+        .menu_item:nth-of-type(4) {             /* для четвертого пункта меню */
+            flex-grow: 1.5;
+        }
+
+        .menu_item:nth-of-type(5) {             /* для пятого пункта меню */
+            flex-grow: 0;
+        }
+
+        .main_parent {                            /* родителская часть для статьи */
+            background-color: rgb(100,81,207);
+            display: flex;
+            height: 100%;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .main_block {                   /* главный блок для статьи */
+           display: flex;
+           width: 75vw;
+           background-color: rgb(100,81,207);
+           justify-content: center;
+           align-items: center;
+           text-align: left;
+           border: solid;
+           border-radius: 7px;
+        }
+
+        .left_article,                      /* для левой и правой статьи */
+        .right_article { 
+            background-color: rgb( 237, 238, 240);
+            margin: 1%;
+            padding: 20px;
+            border: solid;
+            display: flex;
+            align-self: stretch;
+            border-radius: 7px;
+        }
+
+        .article_box {                  /* коробка для статей */
+            font-size: 1.1vw;
+            height: auto;
+            width: auto;
+            align-items: baseline;
+        }
+
+        .image_parent {                   /* родительская часть для изображений */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: purple;
+            height: 100%;
+        }
+
+        .image_block {                     /* блок для изображений */
+            max-height: 70%;
+            max-width: 68.9vw;
+            display: flex;
+            flex-wrap: wrap;
+            margin-left: 50px;
+        }
+
+        .image_cell {                       /* ячейка для изображений */
+            height: 34vh;
+            min-width: 22vw;
+            background-color: purple;
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            border-radius: 7px;
+        }
+
+        .image_cell:nth-of-type(1) {             /* ячейка для первой картинки */
+            background-image: url(images/1.jpg);
+        }
+
+        .image_cell:nth-of-type(2) {              /* ячейка для второй картинки */
+            background-image: url(images/2.jpg);
+        }
+
+        .image_cell:nth-of-type(3) {             /* ячейка для третьей картинки */
+            background-image: url(images/3.jpg);
+        }
+
+        .image_cell:nth-of-type(4) {             /* ячейка для четвертой картинки */
+            background-image: url(images/4.jpg);   
+        }
+
+        .image_cell:nth-of-type(5) {             /* ячейка для пятой картинки */
+            background-image: url(images/5.jpg);
+        }
+
+        .image_cell:nth-of-type(6) {             /* ячейка для шестой картинки */
+            background-image: url(images/6.jpg);
+        }
+        
+        footer {                                 /* родительская часть для нижней частьи подвал */
+            display: flex;
+            flex-direction: column;
+            background-size: 10%;
+            height: auto;
+            background-color: green;
+            font-size: 19px;
+            color:rgb(141,145,155);
+        }
+
+        .footer_block:nth-of-type(1) {              /* для первого пустого блока подвала */
+            background-color: rgb(100,81,207);
+            display: flex;
+            height: 65px;
+
+        }
+
+         .footer_block:nth-of-type(2) {             /* для второго блока подвала */
+            background-color: rgb(29,35,49);
+            display: flex;
+            height: 15em;
+            justify-content: space-around;
+            align-items: center;
+            text-align: left;
+        }
+
+        .footer_column {                    /* колонки для подвала */
+            width: 140px;
+            height: 88%;
+        }
+
+         .copyright:nth-of-type(3) {            /* авторское право для подвала */
+            background-color: rgb(22,29,39);
+            display: flex;
+            height: 47px;
+            justify-content: flex-end;
+            font-size: 30px;
+            align-items: center;
+        }
+        
